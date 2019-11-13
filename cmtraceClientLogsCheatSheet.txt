@@ -1,0 +1,53 @@
+Client Logs Location
+---
+"%windir%\CCM\Logs"
+
+
+Client Registration
+---
+"CcmMessaging.log" "Ccmexec.log" "ClientIDManagerStartup.log" "ClientLocation.log" "ClientServicing.log" "LocationServices.log"
+		   
+
+Desired Configuration Management
+---
+"DCMAgent.log" "DCMReporting.log" "CIAgent.log" "CIDownloader.log" "CIStateStore.log" "CIStore.log"
+
+
+Hardware Inventory
+---
+"CcmMessaging.log" "InventoryAgent.log" "mtrmgr.log" "VirtualApp.log" 
+
+
+Software Distribution
+---
+"execmgr.log" "ContentTransferManager.log" "DataTransferService.log" "FileBITS.log" "LocationServices.log"
+
+
+Policy
+---
+"CcmMessaging.log" "PolicyAgent.log" "PolicyAgentProvider.log" "PolicyEvaluator.log"
+
+
+Windows Update
+---
+(CMTrace apparently has a 260 character limit on the "File Name" field in its Open dialogue box, so we have to hop in a time machine and break out some 8.3 naming truncation in order to make the names of these 16 log files fit:)
+
+"CIAgent.log" "CIDown~1.log" "CIStat~1.log" "CIStore.log" "Conten~1.log" "DCMAgent.log" "DCMRep~1.log" "DataTr~1.log" "Mainte~1.log" "ScanAg~1.log" "Schedu~1.log" "Servic~1.log" "Update~1.log" "Update~2.log" "Update~3.log" "WUAHan~1.log"
+
+For your reference, here are the proper names of the above files:
+"ContentTransferManager.log"
+"DataTransferService.log"
+"DCMAgent.log"
+"DCMReporting.log"
+"MaintenanceCoordinator.log"
+"ScanAgent.log"
+"Scheduler.log"
+"ServiceWindowManager.log"
+"UpdatesDeployment.log"
+"CIAgent.log"
+"CIDownloader.log"
+"CIStateStore.log"
+"CIStore.log"
+"UpdatesHandler.log"
+"UpdatesStore.log"
+"WUAHandler.log"
