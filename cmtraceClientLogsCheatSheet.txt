@@ -53,14 +53,14 @@ Inventory
 "CcmMessaging.log" "InventoryAgent.log" "InventoryProvider.log" "mtrmgr.log"  "VirtualApp.log" 
 
 
-Software Distribution
----
-"execmgr.log" "ContentTransferManager.log" "DataTransferService.log" "FileBITS.log" "LocationServices.log"
-
-
 Policy
 ---
 "CcmMessaging.log" "PolicyAgent.log" "PolicyAgentProvider.log" "PolicyEvaluator.log"
+
+
+Software Distribution
+---
+"execmgr.log" "ContentTransferManager.log" "DataTransferService.log" "FileBITS.log" "LocationServices.log"
 
 
 Software Updates
