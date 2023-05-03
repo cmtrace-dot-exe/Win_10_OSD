@@ -1,8 +1,8 @@
 #########################################################################
-#																		#
-# CMTrace Client Logs Cheat Sheet										#
-# Last modified 2023-05-03 by cmtrace-dot-exe							#
-#																		#
+#                                                                       #
+# CMTrace Client Logs Cheat Sheet                                       #
+# Last modified 2023-05-03 by cmtrace-dot-exe                           #
+#                                                                       #
 #########################################################################
 
 Client Logs Location
