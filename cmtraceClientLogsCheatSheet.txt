@@ -12,42 +12,43 @@ Client Logs Location
 
 Application Management
 ---
-# CMTrace has a 260 character limit in its Open dialog box "File Name" field, which we can work around by using 8.3 naming truncation.
-
 "Altern~1.log" "AppDis~1.log" "AppInt~1.log" "CCMSDK~1.log" "CIAgen~1.log" "CIDown~1.log" "CIStat~1.log" "CIStor~1.log" "CITask~1.log" "CoMana~1.log" "Conten~1.log" "DCMAge~1.log" "DCMRep~1.log" "DataTr~1.log" "DcmWmi~1.log" "execmg~1.log" "UserAf~1.log"
 
-	For your reference, here are the proper names of the above files:
-	
-	"AlternateHandler.log" 
-	"AppDiscovery.log" 
-	"AppIntentEval.log" 
-	"CCMSDKProvider.log" 
-	"CIAgent.log" 
-	"CIDownloader.log" 
-	"CIStateStore.log" 
-	"CIStore.log" 
-	"CITaskMgr.log" 
-	"CoManagementHandler.log" 
-	"ContentTransferManager.log" 
-	"DCMAgent.log" 
-	"DCMReporting.log" 
-	"DataTransferService.log" 
-	"DcmWmiProvider.log"
-	"execmgr.log"  
-	"UserAffinity.log" 
+   # The above files are listed using 8.3 naming truncation in order to
+   # avoid exceeding a 260 character limit in CMTrace's Open dialog box.
+   # 
+   # For your reference, here are the proper names of the above files:
+   # 
+   #   "AlternateHandler.log" 
+   #   "AppDiscovery.log" 
+   #   "AppIntentEval.log" 
+   #   "CCMSDKProvider.log" 
+   #   "CIAgent.log" 
+   #   "CIDownloader.log" 
+   #   "CIStateStore.log" 
+   #   "CIStore.log" 
+   #   "CITaskMgr.log" 
+   #   "CoManagementHandler.log" 
+   #   "ContentTransferManager.log" 
+   #   "DCMAgent.log" 
+   #   "DCMReporting.log" 
+   #   "DataTransferService.log" 
+   #   "DcmWmiProvider.log"
+   #   "execmgr.log"  
+   #   "UserAffinity.log"
 	
 	
 Client Registration
 ---
 "CcmMessaging.log" "Ccmexec.log" "ClientIDManagerStartup.log" "ClientLocation.log" "ClientServicing.log" "LocationServices.log"
-		   
+
 
 Desired Configuration Management
 ---
 "DcmWmiProvider.log" "CCMSDKProvider.log" "CIAgent.log" "CIDownloader.log" "CIStateStore.log" "CIStore.log" "CITaskMgr.log" "DCMAgent.log" "DCMReporting.log" 
 
 
-Hardware Inventory
+Inventory
 ---
 "CcmMessaging.log" "InventoryAgent.log" "InventoryProvider.log" "mtrmgr.log"  "VirtualApp.log" 
 
@@ -64,26 +65,27 @@ Policy
 
 Software Updates
 ---
-# CMTrace has a 260 character limit in its Open dialog box "File Name" field, which we can work around by using 8.3 naming truncation.
-
 "CCMSDK~1.log" "CIAgent.log" "CIDown~1.log" "CIStat~1.log" "CIStore.log" "CITask~1.log" "Conten~1.log" "DCMAgent.log" "DCMRep~1.log" "DcmWmi~1.log" "DataTr~1.log" "ScanAg~1.log" "Servic~1.log" "Update~1.log" "Update~2.log" "Update~3.log" "WUAHan~1.log"
-
-	For your reference, here are the proper names of the above files:
-	
-	"CCMSDKProvider.log"
-	"CIAgent.log"
-	"CIDownloader.log"
-	"CIStateStore.log"
-	"CIStore.log"
-	"CITaskMgr.log"
-	"ContentTransferManager.log"
-	"DCMAgent.log"
-	"DCMReporting.log"
-	"DataTransferService.log"
-	"DcmWmiProvider.log"
-	"ScanAgent.log"
-	"ServiceWindowManager.log"
-	"UpdatesDeployment.log"
-	"UpdatesHandler.log"
-	"UpdatesStore.log"
-	"WUAHandler.log"
+   
+   # The above files are listed using 8.3 naming truncation in order to
+   # avoid exceeding a 260 character limit in CMTrace's Open dialog box.
+   # 
+   # For your reference, here are the proper names of the above files:
+   #
+   #   "CCMSDKProvider.log"
+   #   "CIAgent.log"
+   #   "CIDownloader.log"
+   #   "CIStateStore.log"
+   #   "CIStore.log"
+   #   "CITaskMgr.log"
+   #   "ContentTransferManager.log"
+   #   "DCMAgent.log"
+   #   "DCMReporting.log"
+   #   "DataTransferService.log"
+   #   "DcmWmiProvider.log"
+   #   "ScanAgent.log"
+   #   "ServiceWindowManager.log"
+   #   "UpdatesDeployment.log"
+   #   "UpdatesHandler.log"
+   #   "UpdatesStore.log"
+   #   "WUAHandler.log"
